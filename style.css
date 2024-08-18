@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #040404ef;
+    border-radius: 10px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    background-color: #c8d3d8;
+    border-radius: 10px;
+}
+
+.hour, .minute, .sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 200px;
+    background-color: #222d50b6;
+    margin: 20px;
+    font-size: 4rem;
+    color: #151212;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Orbitron', sans-serif
+    
+}
+h1{
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color:white
+
+}
